@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+
+@media (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: sans-serif;
+        line-height: 1.6;
+        background-color: #fff;
+        color: #333;
+    }
+
+    header {
+        background-color: aqua;
+        z-index: 100;
+        top: 0;
+        position: fixed;
+        width: 100%;
+    }
+    
+    img {
+        display: block;
+        margin: auto;
+    }
+    .nav-list {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    .nav-list li a {
+        color: purple;
+        text-decoration: none;
+        padding: 1rem;
+        display: block;
+        font-weight: bold;
+    }
+
+    #hero {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(images/名称_未_設定.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 80px;
+        z-index: 1;
+    }
+
+    #hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4); 
+        z-index: 2;
+    }
+
+    #hero h2 {
+        position: relative;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        width: 80vw;
+        height: 80%;
+        font-size: 2.5rem;
+        z-index: 10;
+        color: white;
+        padding-top: 130px;
+        font-family: 'Zen Old Mincho', serif;
+
+    }
+}
