@@ -77,4 +77,21 @@
         padding-top: 170px;
         font-family: 'Zen Old Mincho', serif;
     }
+
+    #about {
+        background-color: antiquewhite;
+    }
+
+    #about h3, #services h3, #contact h3{
+        font-size: 2rem;
+    }
+
+    #about section {
+        font-size: 1.5rem;
+    }
+
+    #about .label {
+        font-weight: bold;
+
+    }
 }
